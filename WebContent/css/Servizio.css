@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+h1{
+	padding-left:43.5%;
+}
+p{
+	padding-left:26.5%;
+}
+.griglia li{
+	padding-left:35%;
+	display: inline-block;
+	
+	
+	padding-top: 1%;
+	background-color:#FFFFFF;
+
+}
+#btnSend{
+		float:right;
+	
+}
+footer { color:white;position: absolute; left: 0; width: 100%;overflow: hidden; background: #000000; height: 10%;bottom: 0; }
+header {left: 0; width: 100%; overflow: hidden; background: #ffffff; height: 30%;top: 0;}
+​
+@media only screen and (max-width:1024px), only screen and(max-height:768px) {
+	
+h1{
+	padding-left:40%;
+}
+.prob{
+	padding-left:20%;
+}
+
+}
+
+@media only screen and (max-width : 960px), only screen and(max-height:600px) {
+ h1{
+	padding-left:41.5%;
+}
+p{
+	padding-left:21.5%;
+}
+
+}
+
+@media only screen and (max-width : 800px), only screen and(max-height:736px) {
+  h1{
+	padding-left:41.5%;
+}
+p{
+	padding-left:12%;
+}
+
+}
+
+@media only screen and (max-width : 414px), only screen and(max-height:736px) {
+
+ h1{
+	padding-left:30%;
+}
+p{
+	padding-left:7%;
+}
+}
+
+@media only screen and (max-width : 375px), only screen and(max-height:667px) {
+ 
+ h1{
+	padding-left:28%;
+}
+p{
+	padding-left:7%;
+}
+ 
+}
+@media only screen and (max-width : 320px), only screen and(max-height:568px) {
+  h1{
+	padding-left:24%;
+}
+p{
+	padding-left:9%;
+}
+ 
+ 
+}

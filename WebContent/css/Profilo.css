@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+h1{
+	padding-left:40%;
+}
+.cred{
+	padding-left:33%;
+}
+ul li{
+		padding-left:44%;
+	display: block;
+}
+a{
+	
+	font-size:20px;
+		text-align:center;
+	
+}
+.h3Lista,.account{
+		display: block;
+			padding-left:25%;
+	
+}
+.effettuati,.infoProfilo,.tabella{
+		padding-left:23%;
+	
+}
+.logout{
+	text-align:center;
+	float:left;
+	    cursor: pointer;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    background:red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+footer { color:white;position: absolute; left: 0; width: 100%;overflow: hidden; background: #000000; height: 10%;bottom:0; }
+header {left: 0; width: 100%; overflow: hidden; background: #ffffff; height: 30%;top: 0;}
+
+@media only screen and (max-width : 1024px), only screen and(max-height:768px) {
+
+
+}
+
+@media only screen and (max-width : 960px), only screen and(max-height:600px) {
+ 
+
+}
+
+@media only screen and (max-width : 800px), only screen and(max-height:736px) {
+ 
+
+}
+
+@media only screen and (max-width : 414px), only screen and(max-height:736px) {
+h1{
+	padding-left:18%;
+}
+ul li{
+		padding-left:30%;
+	display: block;
+}
+
+}
+
+@media only screen and (max-width : 375px), only screen and(max-height:667px) {
+ 
+ 
+}
+@media only screen and (max-width : 320px), only screen and(max-height:568px) {
+ 
+ h1{
+	padding-left:10%;
+}
+ul li{
+		padding-left:25%;
+	display: block;
+}
+}
+
+​

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/carrello"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password="admin"
+        url="jdbc:mysql://127.0.0.1:3306/carrello"
+        ></Resource>
+        
+           <Resource name="jdbc/carrello"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password="admin"
+        url="jdbc:mysql://127.0.0.1:3306/carrello"
+         defaultAutoCommit="false"
+        ></Resource>
+</Context>

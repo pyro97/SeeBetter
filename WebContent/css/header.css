@@ -1,0 +1,336 @@
+@CHARSET "UTF-8";
+
+
+	
+header
+ {left: 0; width: 100%; overflow: hidden; background: #ffffff; height: 30%;top: 0;}
+
+.navbar 
+{	padding-left:17.5%; overflow: hidden;    background-color: #000000;    font-family: Arial, Helvetica, sans-serif;}
+
+
+.navbar a 
+{   float: left;    font-size: 16px;    color: white;    text-align: center;    padding: 14px 30px;    text-decoration: none;    }
+
+
+.dropdownx
+{	float:right;	overflow:hidden;	padding-right:20%;}
+
+
+.dropdownx .dropbtnx
+ {      font-size: 1em;        border: none;    outline: none;    color: white;    padding: 0.875em 1.125em;    background-color: black;    font-family: inherit;    margin: 0;}
+
+
+.dropdown-contentx {    display: none;    position: absolute;    background-color: #f9f9f9;    min-width: 10em;    box-shadow: 0em 0.50064em 1em 0em rgba(0,0,0,0.8);    z-index: 1;}
+
+
+.dropdown-contentx a {    float: none;    color: black;    padding: 0.75096em 1em;    text-decoration: none;    display: block;    text-align: left;}
+
+
+.dropdown-contentx a:hover {    background-color: #ddd;}
+
+
+.dropdownx:hover .dropdown-contentx {    display: block;}
+
+
+.dropdown {    float: left;    overflow: hidden;}
+
+
+.dropdown .dropbtn {      font-size: 1em;        border: none;    outline: none;    color: white;    padding: 0.875em 1.125em;    background-color: black;    font-family: inherit;    margin: 0;}
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0.75096em 1em;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.menu {
+	
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu img{
+	  font-size: 0.5em;
+	  padding-left:20%;
+	  
+}
+
+.menu a.carrello {
+	   float: right;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1.875em;
+    text-decoration: none;
+    
+  
+}
+
+.menu a.account {
+	   float: right;	
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+       padding: 0.875em 1.875em;
+    	 	margin-right:20%;
+    
+  
+}
+.menu a:hover,.navbar a:hover,footbar a:hover, .dropdown:hover .dropbtn, .dropbtn {    background-color: red;}
+.menu a:hover {
+  color: #ddd;
+    text-decoration: none;
+}
+.menu a:hover, .dropdownx:hover .dropbtnx, .dropbtnx {
+    background-color: red;
+}
+
+header,nav{
+	background-color:#000000;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media only screen and (max-width : 1024px), only screen and(max-height:768px) {
+ 
+  .navbar 
+{	padding-left:6%;}
+.menu img{
+	  padding-left:10%;
+	  
+}
+.menu a.account {
+    	 	margin-right:10%;
+}
+}
+
+@media only screen and (max-width : 960px), only screen and(max-height:600px) {
+ 
+  .navbar 
+{	padding-left:4.5%;}
+.menu img{
+	  padding-left:8.5%;
+	  
+}
+.menu a.account {
+    	 	margin-right:5.5%;
+}
+}
+
+@media only screen and (max-width : 800px), only screen and(max-height:736px) {
+ 
+  .navbar 
+{	padding-left:4.5%;}
+
+ .navbar a:not(:first-child),.dropdown .dropbtn 
+ {display: none;}
+ 
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar a.icon:hover{
+      background-color: green;
+  
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .menu img{
+	  padding-left:2.5%;
+	  
+	  
+}
+.menu a.account {
+    	 	margin-right:5.5%;
+}
+}
+@media only screen and (max-width : 414px), only screen and(max-height:736px) {
+	 .navbar 
+{	padding-left:3.5%;}
+
+ .navbar a:not(:first-child),.dropdown .dropbtn 
+ {display: none;}
+ 
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar a.icon:hover{
+      background-color: green;
+  
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .menu img{
+	  padding-left:1.5%;
+	  
+	  
+}
+.menu a.account {
+    	 	margin-right:9%;
+    	 	padding: 0.675em 1.4em;
+}
+.menu a.carrello{
+	    	 	margin-right:-1%;
+	padding: 0.675em 1.4em;
+}
+	}
+@media only screen and (max-width : 375px), only screen and(max-height:667px) {
+ 
+  .navbar 
+{	padding-left:3.5%;}
+
+ .navbar a:not(:first-child),.dropdown .dropbtn 
+ {display: none;}
+ 
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar a.icon:hover{
+      background-color: green;
+  
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .menu img{
+	  padding-left:1.5%;
+	  
+	  
+}
+.menu a.account {
+    	 	margin-right:5%;
+    	 	padding: 0.675em 1.4em;
+}
+.menu a.carrello{
+	    	 	margin-right:-1%;
+	padding: 0.675em 1.4em;
+}
+}
+@media only screen and (max-width : 320px), only screen and(max-height:568px) {
+ 
+  .navbar 
+{	padding-left:3.5%;}
+
+ .navbar a:not(:first-child),.dropdown .dropbtn 
+ {display: none;}
+ 
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar a.icon:hover{
+      background-color: green;
+  
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .menu img{
+	  padding-left:1%;
+	  
+	  
+}
+.menu a.account {
+    	 	margin-right:-2%;
+    	 	padding: 0.675em 1em;
+}
+.menu a.carrello{
+	    	 	margin-right:3%;
+	    	 	padding: 0.675em 1em;
+	
+}
+}

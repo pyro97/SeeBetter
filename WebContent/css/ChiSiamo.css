@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+h1{
+	padding-left:46%;
+}
+p{
+	padding-left:26%;
+	padding-right:25%;
+}
+footer { color:white;position: absolute; left: 0; width: 100%;overflow: hidden; background: #000000; height: 10%;bottom: 0; }
+header {left: 0; width: 100%; overflow: hidden; background: #ffffff; height: 30%;top: 0;}
+​
+@media only screen and (max-width : 1024px), only screen and(max-height:768px) {
+
+
+
+}
+
+@media only screen and (max-width : 960px), only screen and(max-height:600px) {
+  h1{
+	padding-left:44%;
+}
+p{
+	padding-left:24%;
+	padding-right:20%;
+}
+
+}
+
+@media only screen and (max-width : 800px), only screen and(max-height:736px) {
+ h1{
+	padding-left:43%;
+}
+p{
+	padding-left:20%;
+	padding-right:18%;
+}
+
+}
+
+@media only screen and (max-width : 414px), only screen and(max-height:736px) {
+
+h1{
+	padding-left:36%;
+}
+p{
+	padding-left:10%;
+	padding-right:8%;
+}
+}
+
+@media only screen and (max-width : 375px), only screen and(max-height:667px) {
+ h1{
+	padding-left:36%;
+}
+p{
+	padding-left:10%;
+	padding-right:8%;
+}
+
+}
+@media only screen and (max-width : 320px), only screen and(max-height:568px) {
+  h1{
+	padding-left:30%;
+}
+p{
+	padding-left:10%;
+	padding-right:8%;
+	
+}
+footer{
+	position:relative;
+}
+ 
+}

@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+h1{
+	padding-left:40%;
+}
+.cred{
+	padding-left:33%;
+}
+ul li{
+		padding-left:44%;
+	display: block;
+}
+a{
+	
+	font-size:20px;
+		text-align:center;
+	
+}
+.h3Lista,.account{
+		display: block;
+			padding-left:25%;
+	
+}
+.effettuati,.infoProfilo,.tabella{
+		padding-left:23%;
+	
+}
+
+footer { color:white;position: absolute; left: 0; width: 100%;overflow: hidden; background: #000000; height: 10%;bottom:100; }
+header {left: 0; width: 100%; overflow: hidden; background: #ffffff; height: 30%;top: 0;}
+
+@media only screen and (max-width : 1024px), only screen and(max-height:768px) {
+.effettuati,.infoProfilo,.tabella{
+		padding-left:13%;
+	
+}
+.h3Lista,.account{
+		display: block;
+			padding-left:15%;
+	
+}
+}
+
+@media only screen and (max-width : 960px), only screen and(max-height:600px) {
+ .effettuati,.infoProfilo,.tabella{
+		padding-left:11%;
+	
+}
+.h3Lista,.account{
+		display: block;
+			padding-left:13%;
+	
+}
+
+}
+
+@media only screen and (max-width : 800px), only screen and(max-height:736px) {
+ 
+
+}
+
+@media only screen and (max-width : 414px), only screen and(max-height:736px) {
+
+
+}
+
+@media only screen and (max-width : 375px), only screen and(max-height:667px) {
+ 
+ 
+}
+@media only screen and (max-width : 320px), only screen and(max-height:568px) {
+.effettuati,.infoProfilo,.tabella{
+		padding-left:4%;
+	
+}
+.h3Lista,.account{
+		display: block;
+			padding-left:8%;
+	
+}
+ 
+}
+
+​
