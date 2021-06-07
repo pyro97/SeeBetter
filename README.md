@@ -1,5 +1,5 @@
 # SeeBetter
-SeeBeetter e-Commerce Website
+E-Commerce Website to sell glasses
 
 <br>
 <p align="center">
