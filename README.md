@@ -16,5 +16,5 @@ SeeBeetter e-Commerce Website
 
 <br>
 <p align="center">
-  <img src="readme/model2.jpeg" width="300">
+  <img src="readme/model2.jpeg" width="500">
 </p>
