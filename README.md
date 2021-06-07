@@ -4,9 +4,9 @@ SeeBeetter e-Commerce Website
 <br>
 <p align="center">
   <img src="readme/see3.png" width="500">
-   <img src="readme/see2.png" width="500">
+  <img src="readme/see2.png" width="500">
   <img src="readme/see1.png" width="500">
-
+  <img src="readme/see4.png" width="500">
 </p>
 
 #### This app has following packages:
